@@ -4,9 +4,9 @@ import { Card, LinkButtom } from './styles'
 
 const Project = () => (
   <Card>
-    <Title>Projeto Lista de tarefas</Title>
-    <Paragraph type="secundario">Lista de taferas feita com VueJS</Paragraph>
-    <LinkButtom>Visualizar</LinkButtom>
+    <Title>To-do list Project</Title>
+    <Paragraph type="secundario">To-do list made with VueJS</Paragraph>
+    <LinkButtom>Click here to view</LinkButtom>
   </Card>
 )
 
