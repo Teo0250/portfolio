@@ -1,7 +1,7 @@
 import EstiloGlobal, { Container } from './styles'
 import SideBar from './Containers/Sidebar'
-import Sobre from './Containers/Sobre'
-import Projetos from './Containers/Projetos'
+import About from './Containers/About'
+import Projects from './Containers/Projects'
 
 function App() {
   return (
@@ -10,8 +10,8 @@ function App() {
       <Container>
         <SideBar />
         <main>
-          <Sobre />
-          <Projetos />
+          <About />
+          <Projects />
         </main>
       </Container>
     </>

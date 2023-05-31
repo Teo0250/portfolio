@@ -2,7 +2,7 @@ import Title from '../../components/Title'
 import Paragraph from '../../components/Paragraph'
 import { GithubSection } from './styles'
 
-const Sobre = () => (
+const About = () => (
   <section>
     <Title fontSize={16}>Sobre mim</Title>
     <Paragraph type="secundario">
@@ -18,4 +18,4 @@ const Sobre = () => (
   </section>
 )
 
-export default Sobre
+export default About
